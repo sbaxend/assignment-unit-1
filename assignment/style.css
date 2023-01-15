@@ -1,4 +1,4 @@
-html, 
+html,
 body {
     margin: 0;
     padding: 0;
@@ -11,20 +11,24 @@ header {
     background-color: khaki;
 
 }
+
 /* Align the h1 containing your name in the center of the header*/
 h1 {
     text-align: center;
 }
+
 footer {
     background-color: sandybrown;
 }
+
 .stud-muffin {
     /* text-align: center; */
     display: flex;
     justify-content: center;
 
 }
-img { 
+
+img {
     width: 300px;
     /* Put a border around your image */
     border: 5px solid;
@@ -32,12 +36,17 @@ img {
     border-radius: 16px;
 
 }
+
 .the-facts {
     justify-content: left;
     text-align: center;
     list-style-position: inside;
-    
 }
+li {
+    /* Change the font-family of your list */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Make your p tag a different color and italic */
 .quote {
     color: whitesmoke;
@@ -45,5 +54,3 @@ img {
     text-align: center;
 }
 
-
-/* Change the font-family of your list */
