@@ -1,11 +1,49 @@
-/* Give your page a fun background color */
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    /* Give your page a fun background color */
+    background-color: palevioletred;
+}
 
 /* Make the header and footer a different color from the background */
+header {
+    background-color: khaki;
 
+}
 /* Align the h1 containing your name in the center of the header*/
+h1 {
+    text-align: center;
+}
+footer {
+    background-color: sandybrown;
+}
+.stud-muffin {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
 
+}
+img { 
+    width: 300px;
+    /* Put a border around your image */
+    border: 5px solid;
+    border-color: black;
+    border-radius: 16px;
+
+}
+.the-facts {
+    justify-content: left;
+    text-align: center;
+    list-style-position: inside;
+    
+}
 /* Make your p tag a different color and italic */
+.quote {
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+}
 
-/* Put a border around your image */
 
 /* Change the font-family of your list */
